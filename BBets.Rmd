@@ -24,41 +24,16 @@ source(file="BrLw.R")
 
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?!-->
 
- At the first day of class there are 35 students in Math Statistics class and professor Brownlow always proposes this bet to his students "I will wager $2 to your bet of $1 that at least two people in today's class have  the same birthday.  He tells me he has made that bet 637 times so far. Where do you think his profits are? Discuss this in a markdown document
- 
-Report git commit structure:
-There are 3 questions and there should be at least 3 separate commits, at least one dealing with each of the 3 questions.
-1. What are the fair odds for a bet on matching birthdays in a 35 person class.
-2. For what size class is a 2:1 odds bet fair.
-3. How much money would Brownlow be expected to end up with if the bets went as described.
+ At the first day of class there are 35 students in Math Statistics class.  Professor Brownlow always proposes this bet to his students "I will wager $1 to your bet of $1 that at least two people in this class have  the same birthday (Month, Day).  Use ChatGPT to write an Rmarkdown file that uses simulation to answer these three questions
 
-## Our strategy is to build a Function and the use it to answer the three questions. 
+## 1
+Given a class size of 35, what is the probability Dr. J wins the bet?   Assume 25 of the 35 students take the bet, what is Dr. J's expected profit/loss? Draw a histogram of the simulated probabilities.  What is a 95% confidence interval for the estimated probability of a Dr.J win?
 
-The function will be given a class_size by number of students, odds, and Number_of_times brownlow made the bet.  It will give you back how much Brownlows earnings were. We will use it to answer our three questions below. If you can, improve this function by giving default values to some of its inputs. 
+## 2
+Suppose class size were 26 students, instead of 35. With the same bet ($1 to $1) What is the probability Dr. J wins the bet now?   Assume 20 of the 26 students take the bet, how much is Dr. J's expected profit/loss now?
 
-# In the class and payoff as described  If you highered 40 brownlow substitute teachers to do the same thing that Brownlow did then.
-## what is their average earnings
-## the standard deviation and a 95% confidence interval for their earnings?
-  
-<!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
-
-
-# What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
-
-
-<!--Decide on your methods:  In this section explain the approach you will take to attack the issue --- how will you decide on a likely estimate of professor Brownlow's earnings or losses after 637 bets. Also explain how you construct a 95% confidence interval about your estimate of his winnings !-->
-
-
-
-
-# What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
-
-<!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
-
-
-
-
-
+## 3
+What size class (how many students) makes the $1 against $1 bet fair?  
 
 
 
